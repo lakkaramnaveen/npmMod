@@ -3,13 +3,17 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js"
   },
   "keywords": [],
   "author": "Naveen",
   "license": "MIT",
   "description": "",
   "dependencies": {
+    "dayjs": "^1.11.19",
+    "express": "^5.2.1",
     "lodash": "^4.17.21"
   }
 }
